@@ -68,6 +68,11 @@ export default {
           foreground: "hsl(var(--card-foreground))",
           hover: "hsl(var(--card-hover))",
         },
+        neon: {
+          green: "hsl(var(--neon-green))",
+          "green-bright": "hsl(var(--neon-green-bright))",
+          "green-dim": "hsl(var(--neon-green-dim))",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
@@ -90,6 +95,7 @@ export default {
         elegant: "var(--shadow-elegant)",
         subtle: "var(--shadow-subtle)",
         glow: "var(--shadow-glow)",
+        "neon-green": "var(--shadow-neon-green)",
       },
       borderRadius: {
         lg: "var(--radius)",
