@@ -19,7 +19,6 @@ const buttonVariants = cva(
         hero: "bg-transparent border border-primary/30 text-foreground backdrop-blur-sm hover:bg-primary/10 hover:border-primary/50 transition-all duration-500 font-medium",
         premium: "bg-background-secondary border border-border-hover text-foreground hover:bg-card-hover hover:shadow-elegant transition-all duration-300",
         minimal: "text-foreground-secondary hover:text-foreground transition-colors duration-300",
-        neon: "bg-transparent border-2 border-neon-green text-neon-green shadow-neon-green hover:bg-neon-green hover:text-black hover:shadow-neon-green transition-all duration-300 font-medium uppercase tracking-wider",
       },
       size: {
         default: "h-10 px-4 py-2",
